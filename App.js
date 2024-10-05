@@ -22,16 +22,7 @@ export default function App() {
  
   return (
     <View style={styles.container} >
-         {/* <ScrollView >
-          {people.map((item)=> {
-            return(
-              <View key={item.key}>
-                <Text style={styles.item}>{item.name}</Text>
-              </View>
-            )
-          })}
-            
-         </ScrollView> */}
+       
     { /*
       FlatList is the best way to render component no need to pass key
     */ }
